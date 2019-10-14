@@ -3,7 +3,6 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-
 main {
   width: 85vw;
   min-height: 80vh;
@@ -13,27 +12,79 @@ main {
   padding: 15px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
-
 .grid-view {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
 .page-view {
   min-height: 40vh;
 }
-
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
 /*
-.main-img {
-  display: block;
-  border-radius: 100%;
-  margin: 0 auto;
-} */
-
+  .main-img {
+    display: block;
+    border-radius: 100%;
+    margin: 0 auto;
+  } */
 header h1 {
   text-align: center;
+}
+.welcome-page header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-page header img {
+  width: 100%;
+  text-align: center;
+}
+.welcome-page header .btn {
+  font-size: 20px;
+  background: chocolate;
+  padding: 15px 20px;
+}
+.welcome-page header .btn:hover {
+  background: cornflowerblue;
+}
+.navBar {
+  display: flex;
+  justify-content: space-around;
+}
+.navBar a {
+  text-decoration: none;
+  color: blue;
+  font-size: 25px;
+  padding: 10px 15px;
+}
+.navBar a:hover {
+  background: lightgreen;
+}
+.character-list {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.character-list .card {
+  margin: 15px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.character-list img {
+  width: 100%;
+}
+.pageNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.pageNav button {
+  font-size: 20px;
+  color: #2727aa;
+  padding: 10px 15px;
+  border-radius: 8px;
 }
