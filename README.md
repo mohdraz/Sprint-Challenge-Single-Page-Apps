@@ -29,6 +29,8 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 > Answer:
 
+The client-side routing makes the web page load fasters without having the need to retrieve data from server with each update and loads. 
+
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
